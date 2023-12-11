@@ -1,5 +1,5 @@
 "use client";
-import Navbar from "@/app/components/Navbar";
+
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Bar } from "react-chartjs-2";
@@ -10,6 +10,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
 import Timeline from "@/app/components/Kaprodi/Timeline";
 import PieChart from "@/app/components/Kaprodi/PieChart";
+import Navbar from "@/app/components/Navbar";
 
 function DashboardKaprodi() {
   const [currentDate, setCurrentDate] = useState(new Date());

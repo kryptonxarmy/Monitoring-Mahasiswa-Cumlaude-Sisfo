@@ -5,23 +5,29 @@ import { Pie } from "react-chartjs-2";
 // Register ChartJS components using ChartJS.register
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip);
 
-ChartJS.register(CategoryScale /* ... */);
-// ...
 const PieChart = () => {
   return (
     <div>
       <Pie
         data={{
-          labels: ["2023-01", "2023-02",],
+          labels: ["Memenuhi", "Belum Memenuhi"],
           datasets: [
             {
               data: [100, 120],
-              backgroundColor: "purple",
+              backgroundColor: ["#DE3A3B", "#37AF57"],
             },
           ],
+        }}
+        options={{
+          plugins: {
+            legend: {
+              position: "right", // Adjust the position as needed (top, right, bottom, left)
+            },
+          },
         }}
       />
     </div>
   );
 };
+
 export default PieChart;
