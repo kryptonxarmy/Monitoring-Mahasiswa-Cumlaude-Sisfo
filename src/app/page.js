@@ -1,6 +1,6 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import TULT from "../../public/img/TULT.png";
+// import TULT from "../../public/img/TULT.png";
 import Image from "next/image";
 
 function LoginPage() {
@@ -15,7 +15,7 @@ function LoginPage() {
             </p>
           </div>
           <div className="w-[72.7%] h-full bg-black absolute opacity-50"></div>
-          <Image src={{TULT}} alt="telu" className="w-full h-full object-cover" />
+          <img src="/img/TULT.png" alt="telu" className="w-full h-full object-cover"/>
         </div>
         <div className="h-full w-[30%] bg-white flex flex-col justify-center items-center">
           <img src="https://s1sisteminformasi.id/wp-content/uploads/2023/09/Logo-Sistem-Informasi-167.png" alt="logo sisfo" />
@@ -39,7 +39,7 @@ function LoginPage() {
               <div className="w-[80%] mx-auto gap-4 flex flex-col">
                 <a
                   // type="submit"
-                  href="/dashboardmahasiswa"
+                  href="/Dashboard/Kaprodi/main"
                   className="bg-[#4680FF] text-center text-white py-2 rounded-xl"
                 >
                   Log in
