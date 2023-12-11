@@ -8,9 +8,9 @@ import { MdHome } from "react-icons/md";
 import { LuFileInput } from "react-icons/lu";
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
-import Timeline from "@/app/components/Kaprodi/Timeline";
-import PieChart from "@/app/components/Kaprodi/PieChart";
-import Navbar from "@/app/components/Navbar";
+import Timeline from "../../../components/Kaprodi/Timeline";
+import PieChart from "../../../components/Kaprodi/PieChart";
+import Navbar from "../../../components/Navbar";
 
 function DashboardKaprodi() {
   const [currentDate, setCurrentDate] = useState(new Date());

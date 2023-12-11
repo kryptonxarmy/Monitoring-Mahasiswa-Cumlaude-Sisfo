@@ -6,7 +6,7 @@ import { LuFileInput } from "react-icons/lu";
 import { MdAddBox } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 import { FaRegTrashAlt } from "react-icons/fa";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "../../../components/Navbar";
 
 function InputFileMahasiswa() {
     const [addBerkas, setAddBerkas] = useState(false);

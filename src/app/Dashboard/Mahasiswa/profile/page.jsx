@@ -1,6 +1,6 @@
 import React from "react";
 import TULT from "../../../../../public/img/TULT.png"
-import Navbar from "@/app/components/Navbar";
+import Navbar from "../../../components/Navbar";
 
 function ProfileMahasiswa() {
   return (

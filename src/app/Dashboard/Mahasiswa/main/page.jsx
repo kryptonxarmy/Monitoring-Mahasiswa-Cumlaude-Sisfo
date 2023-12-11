@@ -5,7 +5,7 @@ import { MdHome } from "react-icons/md";
 import { LuFileInput } from "react-icons/lu";
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "../../../components/Navbar";
 
 function DashboardMahasiswa(props) {
     const [currentDate, setCurrentDate] = useState(new Date());
